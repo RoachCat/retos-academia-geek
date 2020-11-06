@@ -1,0 +1,45 @@
+body {
+    background-color: #ffcc00;
+}
+
+.faceBox{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.face{
+    font-size: 200px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.faceButtons {
+    width: 125px;
+    position: relative;
+    top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.select {
+    width: 50px;
+    height: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+.update {
+    width: 70px;
+    height: 30px;
+    background-color: blue;
+    border-radius: 28px;
+    color: white;
+}
