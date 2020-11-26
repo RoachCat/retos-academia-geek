@@ -1,0 +1,19 @@
+Respuesta reto 1
+
+En la web http://latentflip.com/loupe/?code=!!!PGJ1dHRvbj5DbGljayBtZSE8L2J1dHRvbj4%3D se ejecuta el siguiente
+código:
+
+$.on("button", "click", pulsado);
+
+function pulsado(){
+    let mensaje = "pulsado"
+    console.log(mensaje);
+}
+
+console.log(empezamos)
+
+
+Lo primero que se ejecuta es la detección del botón en el HTML y seguidamente se ejecuta la última línea
+(el mensaje "empezamos") ya que el programa intenta descartar las tareas disponibles mientras se resuelven
+las que están pendientes, justamente porque JS es un lenguaje asíncrono. En el momento en que se clickea
+el botón, la ejecución del programa continúa agregando las tareas respectivas.

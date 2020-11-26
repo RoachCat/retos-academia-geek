@@ -1,0 +1,3 @@
+/* Respuesta reto 2
+
+Las funciones que son pasadas como argumentos a otras funciones también son llamadas "Callbacks".*/

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reto 8</title>
+    <style>
+        /* Sé que no es recomendable poner el CSS dentro del HTML, pero es para no tener tantos archivos en la carpeta. */
+        @font-face {
+            font-family: "digital";
+            src: url("digitalism.ttf");
+        }
+
+        .timer {
+            position: relative;
+            margin: 10em auto auto;
+            width: 15em;
+            height: 15em;
+            border: 2px solid black;
+        }
+        .timer__box-numbers {
+            position: absolute;
+            margin: 1em 0.57em;
+            text-align: center;
+            font-family: "digitalism";
+            font-size: 5em;
+        }
+        .timer__box-buttons {
+            position: absolute;
+            margin-top: 12em;
+            margin-left: 3.5em;
+            width: 7.8em;
+            height: 1.4em;
+        }
+        .button {
+            border-radius: 20%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="timer">
+        <div class="timer__box-numbers">
+            00:00
+        </div>
+        <div class="timer__box-buttons">
+            <button type="button" class="button start">START</button>
+            <button type="button" class="button stop">STOP</button>
+        </div>
+    </div>
+
+    <script src="reto_8.js"></script>
+</body>
+
+</html>

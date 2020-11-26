@@ -1,0 +1,3 @@
+No entendí a qué hacían referencia con el reto. Asumo que es de otro módulo, pero intenté buscarlo y no lo encontré.
+Como sugerencia, sería bueno poner gifs con el resultado esperado pues, en ocasiones, el intentar entender qué se 
+busca con determinado reto demanda más tiempo que construir la solución.

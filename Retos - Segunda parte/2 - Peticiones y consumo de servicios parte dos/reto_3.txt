@@ -1,0 +1,23 @@
+RESPUESTAS AL EJERCICIO 3
+
+1. ¿Dónde está el método de petición?
+Dentro de la pestaña "network" de las devtools, si se da click en cada petición aparecen nuevas pestañas.
+Una de ellas es "headers". En el apartado "General", en "Request Method" podemos ver justamente el método
+de petición. En este caso es "GET".
+
+2. El código de la respuesta.
+En la misma pestaña "network" el código de la pestaña está en la columna "status". Como todas las 
+peticiones se resolvieron adecuadamente, el código de todas es 200.
+
+3.User-agent.
+El user-agent o "agente de usuario" especifica el tipo de navegador o dispositivo que realiza la petición.
+
+4.Respuesta del servidor en JSON.
+Se encuentra dentro de la pestaña "Preview" de cada petición.
+
+5.Filtrar solo las peticiones AJAX.
+En la pestaña "Network", aproximadamente en la tercera fila y después del campo de texto "Filter",
+hay algunos botones mediante los cuales es posible filtrar las peticiones. Con el botón "XHR" se
+muestran solo las peticiones AJAX, es decir, las realizadas con XHR o Fetch.
+
+
